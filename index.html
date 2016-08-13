@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>中午吃什么（¯﹃¯）</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+	
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    font-family: "微软雅黑";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+#wrapper {
+    height: 120px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -60px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 500px;
+}
+#wrapper h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 20px;
+    padding: 0;
+}
+#wrapper h1 b {
+    font-weight: 700;
+}
+#start {
+    cursor: pointer;
+    font-family: "微软雅黑";
+    height: 40px;
+    vertical-align: middle;
+    width: 120px;
+}
+#cfg {
+    color: #666;
+    cursor: pointer;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #eee;
+}
+.temp {
+    color: #777;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>
+			中午吃什么？
+			<br>
+			<br>
+			（¯﹃¯）
+			<br>
+			<br>
+			<b id="what" style="color:#FF4500 "></b>
+		</h1>
+		<input id="start" type="button" value="开始">
+		<textarea style="display:none" id="list" cols="53" rows="9"> 
+		吉祥馄饨 兰州拉面 镇江锅盖面 凯莉阳春面 哈灵面馆 永兴面馆 享味当大食堂 振鼎鸡 阿友徽菜馆 菜饭骨头汤 望湘园（4人以上） 耶里夏丽（4人以上）
+		 萨莉亚 胖哥俩肉蟹煲 麦当劳 炙城石锅拌饭 老山西路面馆 町乡黄鱼面
+		</textarea>
+	</div>
+	<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="random.js" charset="UTF-8"></script>
+	
+</body>
+</html>
